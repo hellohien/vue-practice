@@ -4,5 +4,10 @@ var app = new Vue({
     message: 'Hello, Vue!',
     seen: true,
     counter: 0
+  },
+  methods:{
+    increment: function(){
+      return this.counter += 1
+    }
   }
 })
