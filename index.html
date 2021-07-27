@@ -10,7 +10,9 @@
 </head>
 <body>
   <div id="app">
-    {{message}}
+    <span v-if="seen">
+      {{message}}
+    </span>
   </div>
   <script src="index.js"></script>
 </body>
